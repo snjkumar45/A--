@@ -1,0 +1,22 @@
+package extendWithThread;
+
+public class Main {
+	public static void main(String[] args) {
+		A a=new A();
+		a.start();
+		
+	}
+
+}
+class A extends Thread{
+	public void run() {
+		try {
+			//displaying the  thread that is running
+			System.out.println("Thread "+Thread.currentThread().getId()+" is running");
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("exception caught"+e);
+		}
+	}
+}

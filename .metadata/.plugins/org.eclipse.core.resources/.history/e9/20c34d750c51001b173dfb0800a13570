@@ -1,0 +1,20 @@
+package losTeamPractice.dayA;
+
+public class Animal {
+	//instance variable
+	int a=20;
+	//static variable
+	
+	static int b=30;
+	//instance or non - static area
+
+	public static void main(String[] args) {
+		//static area 
+		System.out.println(b);
+
+	}
+
+}
+class A{
+	//instance area
+}

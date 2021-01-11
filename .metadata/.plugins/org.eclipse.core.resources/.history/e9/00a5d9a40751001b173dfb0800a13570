@@ -1,0 +1,12 @@
+package losTeamPractice.dayA;
+
+public class Outer{
+	int age=20;
+	String name="amitabh";
+	Address address;
+	class Address{
+		// static nested class
+	}
+	 
+
+}

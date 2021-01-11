@@ -1,0 +1,11 @@
+package losTeamPractice.dayA;
+
+public class Animal {
+	//instance or non - static area
+	 
+	public static void main(String[] args) {
+		//static area
+		
+	}
+
+}

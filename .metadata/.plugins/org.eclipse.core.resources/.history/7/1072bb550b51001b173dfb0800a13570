@@ -1,0 +1,27 @@
+package losTeamPractice.dayA;
+
+public class Outer {
+	static private int a = 30;
+
+	  class Inner {
+		public void m1() {
+			System.out.println(a);
+		}
+		
+
+	}
+
+	public static void main(String[] args) {
+		Outer o1 = new Outer();
+		Outer o2 = new Outer();
+		 
+
+	}
+
+	public void show() {
+		{
+			// anonymous inner class
+		}
+	}
+
+}

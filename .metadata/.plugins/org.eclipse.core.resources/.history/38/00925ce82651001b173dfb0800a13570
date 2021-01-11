@@ -1,0 +1,22 @@
+package access_modifier;
+
+ class One {
+	public int eid = 10;
+	public String name = "sanjay";
+
+	public static void main(String[] args) {
+		One one = new One();// parent class object
+		Ek ek = new Ek();
+		System.out.println("Access from class :" + one.eid);
+		System.out.println("Access from class :" + one.name);
+	}
+}
+
+class Ek extends One {
+	{
+		One one = new One();
+
+		System.out.println(one.eid);
+	}
+
+}

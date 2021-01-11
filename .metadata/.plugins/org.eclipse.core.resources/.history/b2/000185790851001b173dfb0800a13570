@@ -1,0 +1,25 @@
+package losTeamPractice.dayA;
+
+public class Outer{
+	
+	static int age=20;//class level variable
+	String name="amitabh";
+	
+	class Inner{
+		int a=20;
+	    int b=30;
+	}
+	public static void main(String[] args) {
+		Outer o1=new Outer();
+		Outer o2=new Outer();
+		
+	}
+	
+	
+public void show() {
+	 {
+		//anonymous inner class
+	}
+}
+
+}

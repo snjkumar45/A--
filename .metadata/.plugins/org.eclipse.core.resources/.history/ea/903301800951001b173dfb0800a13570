@@ -1,0 +1,33 @@
+package losTeamPractice.dayA;
+
+public class Outer {
+
+	static int age = 20;// class level variable
+	int z = 30;
+	String name = "amitabh";
+
+	static class Inner {
+		static int a = 20;
+
+		 static Inner m1() {
+			System.out.println(20);
+		}
+
+	}
+
+	public static void main(String[] args) {
+		Outer o1 = new Outer();
+		Outer o2 = new Outer();
+		System.out.println(Outer.age);
+		//System.out.println(zy);
+		Outer.Inner tu=Inner.m1();
+
+	}
+
+	public void show() {
+		{
+			// anonymous inner class
+		}
+	}
+
+}

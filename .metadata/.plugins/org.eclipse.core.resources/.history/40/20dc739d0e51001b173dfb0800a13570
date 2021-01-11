@@ -1,0 +1,38 @@
+package losTeamPractice.dayA;
+
+public class Animal {
+	//instance variable
+	int a=20;
+	//static variable
+	void m1() {
+		//instance area
+	}
+	
+	static int b=30;
+	//instance or non - static area
+
+	public static void main(String[] args) {
+		Animal animal=new Animal();
+		System.out.println("position two :"+animal.a);//Cannot make a static reference to the non-static field a//20
+
+		
+		A a=new A();
+		//static area 
+		System.out.println("position two :"+b);//30
+
+	}
+	/*
+	 * 30
+	 * 30
+	 * 20
+	 * */
+
+}
+class A{
+	//instance area
+	{
+		
+		System.out.println("position 0ne :"+Animal.b);//30
+	}
+	
+}

@@ -1,0 +1,12 @@
+package access_modifier.A;
+
+import access_modifier.One;
+
+public class Two {
+	One one=new One();
+	{
+		System.out.println("access from subpackage class"+one.eid);
+		System.out.println("access from subpackage class"+one.name);
+	}
+
+}

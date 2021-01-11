@@ -1,0 +1,7 @@
+package losTeamPractice.dayA;
+
+public class Main1{
+	int age=20;
+	String name="amitabh";
+
+}

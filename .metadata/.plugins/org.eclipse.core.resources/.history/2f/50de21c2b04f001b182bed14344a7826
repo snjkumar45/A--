@@ -1,0 +1,9 @@
+package day1;
+
+import java.util.List;
+
+public class KishanMain7 {
+public static void main(String[] args) {
+	List<Kisaan> aandolan=new ArrayList<Kisaan>();
+}
+}

@@ -1,0 +1,7 @@
+package day1;
+
+public class Kisaan {
+private String kisanName;
+private int age;
+private String city;
+}

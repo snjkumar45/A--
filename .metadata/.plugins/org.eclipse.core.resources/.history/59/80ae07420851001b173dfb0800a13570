@@ -1,0 +1,12 @@
+package losTeamPractice.dayA;
+
+public class Outer{
+	int age=20;
+	String name="amitabh";
+public void show() {
+	 class abc{
+		
+	}
+}
+
+}

@@ -1,0 +1,13 @@
+package list;
+
+import java.util.Arrays;
+
+//list is a interface where duplicate is allow ,null insertion allow,insertion oreder prereseverd
+public class MainList {
+	public static void main(String[] args) {
+		//ListInterface All classes
+		List<Student> hostel=Arrays.asList(new Student(1, 21, "Sanjay"),
+				new Student(2, 23, "Mini"));
+	}
+
+}
